@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-  <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commit! プライバシーポリシー</title>
-    <style>
-      body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px;
-  line-height: 1.8; color: #333; }
-      h1 { font-size: 22px; } h2 { font-size: 16px; margin-top: 28px; }
-      p { font-size: 14px; }
-    </style>
-  </head>
-  <body>
-    <h1>Commit! プライバシーポリシー</h1>
-    <p>最終更新: 2026年4月</p>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commit! プライバシーポリシー</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px;
+line-height: 1.8; color: #333; }
+    h1 { font-size: 22px; } h2 { font-size: 16px; margin-top: 28px; }
+    p, li { font-size: 14px; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Commit! プライバシーポリシー</h1>
+  <p>最終更新: 2026年10月</p>
 
-    <h2>■ データの保存について</h2>
-    <p>本アプリで入力・登録されたすべてのデータ（推し選手情報、観戦記録、日記、グッズ情報、写真等）は、
-  お使いの端末内にのみ保存されます。外部サーバーへの送信・アップロードは一切行いません。</p>
+  <h2>■ 端末内に保存されるデータ</h2>
+  <p>推し選手情報・観戦記録・日記・グッズ情報・写真などアプリ内で作成した記録は、すべてお使いの端末内にのみ保存されます。外部への送信・アップロードは行いません。</p>
 
-    <h2>■ 収集する情報</h2>
-    <p>本アプリはユーザーの個人情報を収集しません。</p>
+  <h2>■ サーバーに送信されるデータ（バレーボールニュース機能）</h2>
+  <p>ニュースの表示および推し選手の記事のプッシュ通知のため、以下の情報を運営者のサーバー（Cloudflare Workers）に送信します。</p>
+  <ul>
+    <li>アプリが自動生成するランダムな端末ID（特定の個人には結び付きません）</li>
+    <li>プッシュ通知用のトークン</li>
+    <li>アプリに登録した推し選手の名前</li>
+    <li>ニュース画面を最後に開いた日時</li>
+  </ul>
+  <p>これらはニュースの配信・通知の目的のみに利用し、氏名・メールアドレス等の個人情報の収集は行いません。</p>
 
-    <h2>■ 第三者への提供</h2>
-    <p>本アプリはいかなる個人情報も第三者に提供しません。</p>
+  <h2>■ 第三者提供・広告・トラッキング</h2>
+  <p>上記データを第三者に提供することはありません。広告配信や行動追跡（トラッキング）にも一切利用しません。</p>
 
-    <h2>■ データの削除</h2>
-    <p>設定画面の「データをリセット」からすべてのデータを削除できます。</p>
+  <h2>■ データの削除</h2>
+  <ul>
+    <li>端末内のデータ: 設定画面の「データをリセット」で削除できます。</li>
+    <li>サーバー上のデータ: 設定画面でプッシュ通知をオフにすると、端末ID・トークン・推し選手名がサーバーから削除されます。「データをリセット」を実行した場合も同時に削除されます。</li>
+  </ul>
 
-    <h2>■ お問い合わせ</h2>
-    <p>commitvolley@gmail.com</p>
-  </body>
-  </html>
+  <h2>■ お問い合わせ</h2>
+  <p>commitvolley@gmail.com</p>
+</body>
+</html>
